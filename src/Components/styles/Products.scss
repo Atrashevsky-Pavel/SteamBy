@@ -1,0 +1,33 @@
+@import './src/App.scss';
+.productsItem {
+  margin: 5px;
+  width: 160px;
+  height: 180px;
+  display: inline-block;
+  position: relative;
+  background-color: $productColor;
+  float: left;
+}
+.productsItem>div {
+  float: left;
+  width: 100%;
+  z-index: 2;
+}
+.productsItem img {
+  margin-left: 10%;
+  margin-top: 2%;
+  width: 55%;
+  float: left;
+}
+.productsItem span {
+  margin-left: 4%;
+  color: white;
+  font-size: 0.8rem;
+  float: left;
+}
+.productsItem:hover {
+  .productsItemHover {
+    display: block;
+  }
+}
+

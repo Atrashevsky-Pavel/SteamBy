@@ -1,0 +1,48 @@
+@import './src/App.scss';
+.productsItemHover {
+  position: absolute;
+  display: none;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  opacity: 0.9;
+  background-color: $hoverColor;
+}
+#intoHover{
+  position: relative;
+  top: 10%;
+  height: 80%;
+  width: 100%;
+  float: left;
+}
+#intoHover div{
+ width: 100%;
+  float: left;
+}
+#intoHover span, #intoHover select,  #intoHover select, #intoHover button {
+  float: left;
+  margin-left: 4%;
+}
+#intoHover button {
+  margin-top: 4%;
+  font-size: 0.7rem;
+  width: 44%;
+  padding: 5px 0px;
+  background-color: $buttonColor;
+  color: white;
+  border: 2px solid $buttonColor;
+}
+#intoHover button:hover {
+  background-color: $buttonColorHover;
+  border: 2px solid $buttonColorHover;
+}
+#intoHover select {
+  margin-top: 3%;
+  width: 92%;
+  padding-right: 43%;
+  background-color: $buttonColor;
+  color: white;
+}
+#intoHover #intoHoverPrice {
+  margin-top: 30%;
+}
